@@ -1,0 +1,74 @@
+/* 
+
+Project Name: Dfunk's Geekdom 
+Client: David Linstad
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/background.JPG');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+
+
+	background: #181818;
+    width: 600px;
+    color: #78C0F0;
+    padding: 15px;
+
+    position: absolute;
+	left: 50%;
+	top: 10%;
+	height: 800px;
+	margin-top: -400px /* half of you height */
+	width: 600px;
+	margin-left: -300px /* half of you width */
+
+
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Arvo', serif;
+}
+
+h2 {
+	background: #484878;
+	color: #F0F0F0;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: 'Arvo', serif;
+}
+
+
+p {
+	font-family: 'Anton', sans-serif;
+	color: #78C0F0;
+}
+
+
+h3 {
+	background: #484878;
+	color: #F0F0F0;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: 'Arvo', serif;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #F0F0F0;
+}
+
+    
+
